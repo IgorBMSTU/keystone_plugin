@@ -7,7 +7,7 @@ local roles = require ("kong.plugins.keystone.views.roles")
 local policies = require ("kong.plugins.keystone.policies")
 local assignment = roles.assignment
 local cjson = require "cjson"
-local ROUNDS = 5
+local ROUNDS = 7
 local namespace_id
 
 local function user_fits(params, dao_factory, user_info)
